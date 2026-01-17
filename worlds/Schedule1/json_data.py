@@ -27,7 +27,9 @@ class LocationData:
     name: str
     region: str
     requirements: Dict[str, int]
+    requirements_type: str
     requirements_alt: Dict[str, int]
+    requirements_alt_type: str
     modern_id: int
     tags: List[str]
 
@@ -38,7 +40,9 @@ class EventData:
     itemName: str
     locationName : str
     requirements: Dict[str, int]
+    requirements_type: str
     requirements_alt: Dict[str, int]
+    requirements_alt_type: str
     tags: List[str]
 
 class Schedule1ItemData:
@@ -96,7 +100,9 @@ class Schedule1LocationData:
                 name=location_name,
                 region=location_info["region"],
                 requirements=location_info["requirements"],
+                requirements_type=location_info["requirements_type"],
                 requirements_alt=location_info["requirements_alt"],
+                requirements_alt_type=location_info["requirements_alt_type"],
                 tags=location_info["tags"],
                 modern_id=location_info["modern_id"]
             )
@@ -110,7 +116,7 @@ class Schedule1EventData:
         with open(events_json_path, "rb") as f:
             events_raw = orjson.loads(f.read())
         
-        # Parse events into LocationData objects
+        # Parse events into EventData objects
         self.events: Dict[str, EventData] = {}
         for event_name, event_info in events_raw.items():
             self.events[event_name] = EventData(
@@ -118,7 +124,9 @@ class Schedule1EventData:
                 locationName=event_info["locationName"],
                 region=event_info["region"],
                 requirements=event_info["requirements"],
+                requirements_type=event_info["requirements_type"],
                 requirements_alt=event_info["requirements_alt"],
+                requirements_alt_type=event_info["requirements_alt_type"],
                 tags=event_info["tags"]
             )
 # Create singleton instances for easy import
