@@ -6,11 +6,15 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List
+import pkgutil
+from typing import Any, Dict, List, Union
 
 import orjson
 
 from BaseClasses import ItemClassification
+
+def load_json_data(data_name: str) -> Union[List[Any], Dict[str, Any]]:
+    return orjson.loads(pkgutil.get_data(__name__, "data/" + data_name).decode("utf-8-sig"))
 
 @dataclass
 class ItemData:
@@ -49,11 +53,8 @@ class Schedule1ItemData:
     """Container for all Schedule1 game data loaded from JSON files"""
     
     def __init__(self):
-        # Load items.json
-        items_json_path = Path(__file__).parent / "data" / "items.json"
-        with open(items_json_path, "rb") as f:
-            items_raw = orjson.loads(f.read())
-        
+        items_raw = load_json_data("items.json")
+            
         # Mapping from JSON classification strings to ItemClassification flags
         classification_map = {
             "USEFUL": ItemClassification.useful,
@@ -88,10 +89,7 @@ class Schedule1LocationData:
     """Container for all Schedule1 location data loaded from JSON files"""
     
     def __init__(self):
-        # Load locations.json
-        locations_json_path = Path(__file__).parent / "data" / "locations.json"
-        with open(locations_json_path, "rb") as f:
-            locations_raw = orjson.loads(f.read())
+        locations_raw = load_json_data("locations.json")
         
         # Parse locations into LocationData objects
         self.locations: Dict[str, LocationData] = {}
@@ -112,9 +110,7 @@ class Schedule1EventData:
     
     def __init__(self):
         # Load events.json
-        events_json_path = Path(__file__).parent / "data" / "events.json"
-        with open(events_json_path, "rb") as f:
-            events_raw = orjson.loads(f.read())
+        events_raw = load_json_data("events.json")
         
         # Parse events into EventData objects
         self.events: Dict[str, EventData] = {}
