@@ -1,5 +1,5 @@
 {
-    "Welcome To Hyland Point 1, open Phone": {
+    "Welcome to Hyland Point|Open your phone (press Tab) and read your messages": {
         "region": "Missions",
         "requirements": {},
         "requirements_type": "",
@@ -8,7 +8,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 1
     },
-    "Welcome To Hyland Point 2, talk to U.N at payphone": {
+    "Welcome to Hyland Point|Talk to 'U.N.' at a payphone": {
         "region": "Missions",
         "requirements": {},
         "requirements_type": "",
@@ -17,7 +17,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 2
     },
-    "Welcome To Hyland Point 3, collect stash near fountain": {
+    "Welcome to Hyland Point|Collect the stash near the fountain": {
         "region": "Missions",
         "requirements": {},
         "requirements_type": "",
@@ -26,7 +26,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 3
     },
-    "Welcome To Hyland Point 4, collect stage near canal": {
+    "Welcome to Hyland Point|Collect the stash near the canal": {
         "region": "Missions",
         "requirements": {},
         "requirements_type": "",
@@ -35,7 +35,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 4
     },
-    "Welcome To Hyland Point 5, collect stash behind supermarket": {
+    "Welcome to Hyland Point|Collect the stash behind the supermarket": {
         "region": "Missions",
         "requirements": {},
         "requirements_type": "",
@@ -44,7 +44,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 5
     },
-    "Welcome To Hyland Point 6, head back to RV": {
+    "Welcome to Hyland Point|Head back to the RV": {
         "region": "Missions",
         "requirements": {},
         "requirements_type": "",
@@ -53,7 +53,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 6
     },
-    "Welcome To Hyland Point 7, investigate the explosion": {
+    "Welcome to Hyland Point|Investigate the explosion": {
         "region": "Missions",
         "requirements": {},
         "requirements_type": "",
@@ -62,7 +62,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 7
     },
-    "Welcome To Hyland Point 8, read the note": {
+    "Welcome to Hyland Point|Read the note": {
         "region": "Missions",
         "requirements": {},
         "requirements_type": "",
@@ -71,7 +71,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 8
     },
-    "Welcome To Hyland Point 9, talk on payphone": {
+    "Welcome to Hyland Point|Talk to Uncle Nelson at a payphone": {
         "region": "Missions",
         "requirements": {},
         "requirements_type": "",
@@ -80,34 +80,34 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 9
     },
-    "Getting Started 1, talk to the manager in motel": {
+    "Getting Started|Talk to the manager in the motel office": {
         "region": "Missions",
-        "requirements": {"Completed Welcome To Hyland Point" : 1},
+        "requirements": {"Welcome to Hyland Point" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
         "tags": ["Mission", "Permanent"],
         "modern_id": 10
     },
-    "Getting Started 2, rent a motel room": {
+    "Getting Started|Rent a motel room": {
         "region": "Missions",
-        "requirements": {"Completed Welcome To Hyland Point" : 1},
+        "requirements": {"Welcome to Hyland Point" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
         "tags": ["Mission", "Permanent"],
         "modern_id": 11
     },
-    "Getting Started 3, check out the motel room": {
+    "Getting Started|Check out your motel room": {
         "region": "Missions",
-        "requirements": {"Completed Welcome To Hyland Point" : 1},
+        "requirements": {"Welcome to Hyland Point" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
         "tags": ["Mission", "Permanent"],
         "modern_id": 12
     },
-    "Gearing up 1, go to the hardware store ": {
+    "Gearing up|Go to the hardware store": {
         "region": "Missions",
         "requirements": {"Completed Getting Started" : 1, "Completed Money Management" : 1},
         "requirements_type": "has_all_counts",
@@ -116,7 +116,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 13
     },
-    "Gearing up 2, buy 1x grow tent": {
+    "Gearing up|Buy 1x grow tent": {
         "region": "Missions",
         "requirements": {"Completed Getting Started" : 1, "Completed Money Management" : 1},
         "requirements_type": "has_all_counts",
@@ -125,7 +125,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 14
     },
-    "Gearing up 3, buy 1x soil": {
+    "Gearing up|Buy 1x soil": {
         "region": "Missions",
         "requirements": {"Completed Getting Started" : 1, "Completed Money Management" : 1},
         "requirements_type": "has_all_counts",
@@ -134,7 +134,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 15
     },
-    "Gearing up 4, buy 1x watering can": {
+    "Gearing up|Buy 1x watering can": {
         "region": "Missions",
         "requirements": {"Completed Getting Started" : 1, "Completed Money Management" : 1},
         "requirements_type": "has_all_counts",
@@ -143,7 +143,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 16
     },
-    "Gearing up 5, head back to motel room": {
+    "Gearing up|Head back to the motel room": {
         "region": "Missions",
         "requirements": {"Completed Getting Started" : 1, "Completed Money Management" : 1},
         "requirements_type": "has_all_counts",
@@ -152,7 +152,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 17
     },
-    "Gearing up 6, place the grow tent and fill it with soil": {
+    "Gearing up|Place the grow tent and fill it with soil": {
         "region": "Missions",
         "requirements": {"Completed Getting Started" : 1, "Completed Money Management" : 1},
         "requirements_type": "has_all_counts",
@@ -161,7 +161,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 18
     },
-    "Gearing up 7, talk to uncle nelson on the phone": {
+    "Gearing up|Talk to Uncle Nelson at a payphone": {
         "region": "Missions",
         "requirements": {"Completed Getting Started" : 1, "Completed Money Management" : 1},
         "requirements_type": "has_all_counts",
@@ -170,7 +170,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 19
     },
-    "Gearing up 8, Order 1x OG Kush Seed from Albert Hoover": {
+    "Gearing up|Order 1x OG Kush Seed from Albert Hoover": {
         "region": "Missions",
         "requirements": {"Completed Getting Started" : 1, "Completed Money Management" : 1},
         "requirements_type": "",
@@ -179,7 +179,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 20
     },
-    "Gearing up 9, Wait for the dead drop": {
+    "Gearing up|Wait for the dead drop": {
         "region": "Missions",
         "requirements": {"Completed Getting Started" : 1, "Completed Money Management" : 1},
         "requirements_type": "has_all_counts",
@@ -188,7 +188,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 21
     },
-    "Gearing up 10, Collect the dead drop": {
+    "Gearing up|Collect the dead drop": {
         "region": "Missions",
         "requirements": {"Completed Getting Started" : 1, "Completed Money Management" : 1},
         "requirements_type": "has_all_counts",
@@ -197,7 +197,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 22
     },
-    "Gearing up 11, Sow a weed seed": {
+    "Gearing up|Sow a weed seed": {
         "region": "Missions",
         "requirements": {"Completed Getting Started" : 1, "Completed Money Management" : 1},
         "requirements_type": "has_all_counts",
@@ -206,7 +206,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 23
     },
-    "Gearing up 12, Water the weed plant": {
+    "Gearing up|Water the weed plant": {
         "region": "Missions",
         "requirements": {"Completed Getting Started" : 1, "Completed Money Management" : 1},
         "requirements_type": "has_all_counts",
@@ -215,7 +215,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 24
     },
-    "Gearing up 13, Harvest the weed plant once fully grown": {
+    "Gearing up|Harvest the weed plant once fully grown": {
         "region": "Missions",
         "requirements": {"Completed Getting Started" : 1, "Completed Money Management" : 1},
         "requirements_type": "has_all_counts",
@@ -224,7 +224,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 25
     },
-    "Gearing up 14, Package at least 3x weed": {
+    "Gearing up|Package at least 3x weed": {
         "region": "Missions",
         "requirements": {"Completed Getting Started" : 1, "Completed Money Management" : 1},
         "requirements_type": "has_all_counts",
@@ -233,7 +233,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 26
     },
-    "Gearing up 15, List OG Kush for sale": {
+    "Gearing up|List OG Kush for sale in the product manager app": {
         "region": "Missions",
         "requirements": {"Completed Getting Started" : 1, "Completed Money Management" : 1},
         "requirements_type": "has_all_counts",
@@ -242,7 +242,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 27
     },
-    "Packin 1, Buy 1x plant trimmers": {
+    "Packin'|Buy 1x plant trimmers": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up 6" : 1},
         "requirements_type": "has_all_counts",
@@ -251,7 +251,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 28
     },
-    "Packin 2, Buy 1x packaging station": {
+    "Packin'|Buy 1x packaging station": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up 6" : 1},
         "requirements_type": "has_all_counts",
@@ -260,7 +260,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 29
     },
-    "Packin 3, Buy 10x baggies": {
+    "Packin'|Buy 10x baggies": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up 6" : 1},
         "requirements_type": "has_all_counts",
@@ -269,7 +269,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 30
     },
-    "packin 4, Place the packaging station in the motel room": {
+    "packin'|Place the packaging station in the motel room": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up 6" : 1},
         "requirements_type": "has_all_counts",
@@ -278,7 +278,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 31
     },
-    "Keepin it fresh 1, Place the soil bag and vial in trash can": {
+    "Keepin it fresh|Place the soil bag and seed vial in the motel room trash can": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up 6" : 1},
         "requirements_type": "has_all_counts",
@@ -287,7 +287,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 32
     },
-    "Keepin it fresh 2, Buy a trash bag from the hardware store": {
+    "Keepin it fresh|Buy a trash bag from the hardware store": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up 6" : 1},
         "requirements_type": "has_all_counts",
@@ -296,7 +296,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 33
     },
-    "Keepin it fresh 3, Bag the contents of the trash can": {
+    "Keepin it fresh|Bag the contents of the trash can": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up 6" : 1},
         "requirements_type": "has_all_counts",
@@ -305,7 +305,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 34
     },
-    "Keepin it fresh 4, Dispose of the trash bag": {
+    "Keepin it fresh|Dispose of the trash bag": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up 6" : 1},
         "requirements_type": "has_all_counts",
@@ -314,7 +314,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 35
     },
-    "On the Grind 1, Wait for a message from a customer": {
+    "On the Grind|Wait for a message from a customer": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up" : 1},
         "requirements_type": "has_all_counts",
@@ -323,7 +323,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 36
     },
-    "On the Grind 2, Schedule your first deal": {
+    "On the Grind|Schedule your first deal": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up" : 1},
         "requirements_type": "has_all_counts",
@@ -332,7 +332,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 37
     },
-    "On the Grind 3, Complete your first deal": {
+    "On the Grind|Complete your first deal": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up" : 1},
         "requirements_type": "has_all_counts",
@@ -341,7 +341,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 38
     },
-    "On the Grind 4, Buy and place another grow tent": {
+    "On the Grind|Buy and place another grow tent": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up" : 1},
         "requirements_type": "has_all_counts",
@@ -350,7 +350,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 39
     },
-    "On the Grind 5, Complete 3 deals": {
+    "On the Grind|Complete 3 deals (0/3)": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up" : 1},
         "requirements_type": "has_all_counts",
@@ -359,7 +359,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 40
     },
-    "On the Grind 6, Talk to Uncle Nelson at a payphone": {
+    "On the Grind|Talk to Uncle Nelson at a payphone": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up" : 1},
         "requirements_type": "has_all_counts",
@@ -368,7 +368,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 41
     },
-    "On the Grind 7, Open the contacts app": {
+    "On the Grind|Open the contacts app": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up" : 1},
         "requirements_type": "has_all_counts",
@@ -377,7 +377,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 42
     },
-    "On the Grind 8, Select a friend of an unlocked customer in app": {
+    "On the Grind|Select a friend of an unlocked customer in app": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up" : 1},
         "requirements_type": "has_all_counts",
@@ -386,7 +386,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 43
     },
-    "On the Grind 9, Open the map app to see your potential customers": {
+    "On the Grind|Open the map app to see your potential customers": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up" : 1},
         "requirements_type": "has_all_counts",
@@ -395,7 +395,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 44
     },
-    "On the Grind 10, Offer a free sample to a potential customer": {
+    "On the Grind| Offer a free sample to a potential customer": {
         "region": "Missions",
         "requirements": {"Completed Gearing Up" : 1},
         "requirements_type": "has_all_counts",
@@ -404,7 +404,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 45
     },
-    "Moving up 1, Save $800 for a new property": {
+    "Moving up|Save $800 for a new property": {
         "region": "Missions",
         "requirements": {"Completed On The Grind 5" : 1},
         "requirements_type": "has_all_counts",
@@ -413,7 +413,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 46
     },
-    "Moving up 2, Talk to Mrs. Ming at the Chinese restaurant": {
+    "Moving up|Talk to Mrs. Ming at the Chinese restaurant": {
         "region": "Missions",
         "requirements": {"Completed On The Grind 5" : 1},
         "requirements_type": "has_all_counts",
@@ -422,7 +422,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 47
     },
-    "Moving up 3, Purchase the room above the Chinese Restaurant": {
+    "Moving up|Purchase the room above the Chinese Restaurant": {
         "region": "Missions",
         "requirements": {"Completed On The Grind 5" : 1},
         "requirements_type": "has_all_counts",
@@ -431,7 +431,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 48
     },
-    "Moving up 4, Move the grow tents and packaging station to the new room": {
+    "Moving up|Move the grow tents and packaging station to the new room": {
         "region": "Missions",
         "requirements": {"Completed On The Grind 5" : 1},
         "requirements_type": "has_all_counts",
@@ -440,7 +440,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 49
     },
-    "Moving up 5, Unlock 10 customers": {
+    "Moving up|Unlock 10 customers": {
         "region": "Missions",
         "requirements": {"Unlocked 10 Customers" : 1, "Completed On The Grind 5" : 1},
         "requirements_type": "has_all_counts",
@@ -449,7 +449,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 50
     },
-    "Dodgy Dealing 1, Talk to Uncle Nelson at a payphone": {
+    "Dodgy Dealing|Talk to Uncle Nelson at a payphone": {
         "region": "Missions",
         "requirements": {"Completed Moving Up" : 1},
         "requirements_type": "has_all_counts",
@@ -458,7 +458,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 51
     },
-    "Dodgy Dealing 2, Unlock Chloe, Ludwig, or Beth as customers": {
+    "Dodgy Dealing|Unlock Chloe, Ludwig, or Beth as customers": {
         "region": "Missions",
         "requirements": {"Unlocked Chloe, Ludwig, or Beth" : 1, "Completed Moving Up" : 1},
         "requirements_type": "has_all_counts",
@@ -467,7 +467,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 52
     },
-    "Dodgy Dealing 3, friendly status with Chloe, Ludwig, or Beth": {
+    "Dodgy Dealing|Reach 'friendly' relationship status with Chloe, Ludwig, or Beth": {
         "region": "Missions",
         "requirements": {"Unlocked Chloe, Ludwig, or Beth" : 1, "Completed Moving Up" : 1},
         "requirements_type": "has_all_counts",
@@ -476,7 +476,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 53
     },
-    "Dodgy Dealing 4, Talk to Benji Coleman in Motel Room #2": {
+    "Dodgy Dealing|Talk to Benji Coleman in Motel Room #2": {
         "region": "Missions",
         "requirements": {"Unlocked Chloe, Ludwig, or Beth" : 1, "Completed Moving Up" : 1},
         "requirements_type": "has_all_counts",
@@ -485,7 +485,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 54
     },
-    "Dodgy Dealing 5, Recruit Benji Coleman as a dealer": {
+    "Dodgy Dealing|Recruit Benji Coleman as a dealer": {
         "region": "Missions",
         "requirements": {"Unlocked Chloe, Ludwig, or Beth" : 1, "Completed Moving Up" : 1},
         "requirements_type": "has_all_counts",
@@ -494,7 +494,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 55
     },
-    "Dodgy Dealing 6, Provide Benji with at least 10x Weed": {
+    "Dodgy Dealing|Provide Benji with at least 10x Weed": {
         "region": "Missions",
         "requirements": {"Unlocked Chloe, Ludwig, or Beth" : 1, "Completed Moving Up" : 1},
         "requirements_type": "has_all_counts",
@@ -503,7 +503,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 56
     },
-    "Dodgy Dealing 7, Assign at least 3 customers to Benji": {
+    "Dodgy Dealing|Assign at least 3 customers to Benji": {
         "region": "Missions",
         "requirements": {"Unlocked Chloe, Ludwig, or Beth" : 1, "Completed Moving Up" : 1},
         "requirements_type": "has_all_counts",
@@ -512,7 +512,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 57
     },
-    "Dodgy Dealing 8, Wait for Benji to complete a deal": {
+    "Dodgy Dealing|Wait for Benji to complete a deal": {
         "region": "Missions",
         "requirements": {"Unlocked Chloe, Ludwig, or Beth" : 1, "Completed Moving Up" : 1},
         "requirements_type": "has_all_counts",
@@ -521,7 +521,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 58
     },
-    "Dodgy Dealing 9, Collect the cash from Benji": {
+    "Dodgy Dealing|Collect the cash from Benji": {
         "region": "Missions",
         "requirements": {"Unlocked Chloe, Ludwig, or Beth" : 1, "Completed Moving Up" : 1},
         "requirements_type": "has_all_counts",
@@ -530,7 +530,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 59
     },
-    "Mixing Mania 1, Talk to Uncle Nelson at a payphone": {
+    "Mixing Mania|Talk to Uncle Nelson at a payphone": {
         "region": "Missions",
         "requirements": {"Completed Dodgy Dealing" : 1},
         "requirements_type": "has_all_counts",
@@ -539,7 +539,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 60
     },
-    "Mixing Mania 2, Purchase a mixing station from the hardware store": {
+    "Mixing Mania|Purchase a mixing station from the hardware store": {
         "region": "Missions",
         "requirements": {"Completed Dodgy Dealing" : 1, "Mixing Station Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -548,7 +548,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 61
     },
-    "Mixing Mania 3, Place the mixing station": {
+    "Mixing Mania|Place the mixing station": {
         "region": "Missions",
         "requirements": {"Completed Dodgy Dealing" : 1, "Mixing Station Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -557,7 +557,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 62
     },
-    "Mixing Mania 4, Go to Gas-Mart": {
+    "Mixing Mania|Go to Gas-Mart": {
         "region": "Missions",
         "requirements": {"Completed Dodgy Dealing" : 1, "Mixing Station Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -566,7 +566,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 63
     },
-    "Mixing Mania 5, Purchase at least one mixing ingredient": {
+    "Mixing Mania|Purchase at least one mixing ingredient": {
         "region": "Missions",
         "requirements": {"Completed Dodgy Dealing" : 1, "Mixing Station Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -575,7 +575,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 64
     },
-    "Mixing Mania 6, Start a new mix at the mixing station": {
+    "Mixing Mania|Start a new mix at the mixing station": {
         "region": "Missions",
         "requirements": {"Completed Dodgy Dealing" : 1, "Mixing Station Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -584,7 +584,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 65
     },
-    "Mixing Mania 7, Wait for the mix to complete": {
+    "Mixing Mania|Wait for the mix to complete": {
         "region": "Missions",
         "requirements": {"Completed Dodgy Dealing" : 1, "Mixing Station Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -593,7 +593,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 66
     },
-    "Mixing Mania 8, Collect the new product": {
+    "Mixing Mania|Collect the new product": {
         "region": "Missions",
         "requirements": {"Completed Dodgy Dealing" : 1, "Mixing Station Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -602,16 +602,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 67
     },
-    "Mixing Mania 9, Talk to Uncle Nelson at a payphone": {
-        "region": "Missions",
-        "requirements": {"Completed Dodgy Dealing" : 1, "Mixing Station Unlock" : 1},
-        "requirements_type": "has_all_counts",
-        "requirements_alt": {"Completed Dodgy Dealing" : 1, "Rank Hoodlum I Reached" : 1},
-        "requirements_alt_type": "has_all_counts",
-        "tags": ["Mission", "Permanent", "Level Up Reward Required"],
-        "modern_id": 68
-    },
-    "Mixing Mania 10, Mix a strain worth at least $60": {
+    "Mixing Mania|Mix a strain worth at least $60": {
         "region": "Missions",
         "requirements": {"Completed Dodgy Dealing" : 1, "Mixing Station Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -620,7 +611,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 69
     },
-    "Making the Rounds 1, Talk to the real estate agent": {
+    "Making the Rounds|Talk to the real estate agent": {
         "region": "Missions",
         "requirements": {"Completed Mixing Mania" : 1},
         "requirements_type": "has_all_counts",
@@ -629,7 +620,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 70
     },
-    "Making the Rounds 2, Talk to the dealership manager": {
+    "Making the Rounds|Talk to the dealership manager": {
         "region": "Missions",
         "requirements": {"Completed Mixing Mania" : 1},
         "requirements_type": "has_all_counts",
@@ -638,7 +629,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 71
     },
-    "Making the Rounds 3, Talk to the mechanic": {
+    "Making the Rounds|Talk to the mechanic": {
         "region": "Missions",
         "requirements": {"Completed Mixing Mania" : 1},
         "requirements_type": "has_all_counts",
@@ -647,7 +638,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 72
     },
-    "Needin the Green, Earn $10,000": {
+    "Needin' the Green|Earn $10,000 ($0 / $10,000)": {
         "region": "Missions",
         "requirements": {"Completed Making the Rounds" : 1},
         "requirements_type": "has_all_counts",
@@ -656,7 +647,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 73
     },
-    "Wretched Hive of Scum and Villany 1, Talk to Uncle Nelson at a payphone": {
+    "Wretched Hive of Scum and Villany|Talk to Uncle Nelson at a payphone": {
         "region": "Missions",
         "requirements": {"Completed Needin the Green" : 1},
         "requirements_type": "has_all_counts",
@@ -665,7 +656,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 74
     },
-    "Wretched Hive of Scum and Villany 2, Gain access to the warehouse": {
+    "Wretched Hive of Scum and Villany|Gain access to the warehouse": {
         "region": "Missions",
         "requirements": {"Completed Needin the Green" : 1, "Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
@@ -674,7 +665,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 75
     },
-    "Wretched Hive of Scum and Villany 3, Talk to the merchant": {
+    "Wretched Hive of Scum and Villany|Talk to the merchant": {
         "region": "Missions",
         "requirements": {"Completed Needin the Green" : 1, "Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
@@ -683,7 +674,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 76
     },
-    "Wretched Hive of Scum and Villany 4, Talk to the arms dealer": {
+    "Wretched Hive of Scum and Villany|Talk to the arms dealer": {
         "region": "Missions",
         "requirements": {"Completed Needin the Green" : 1, "Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
@@ -692,7 +683,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 77
     },
-    "Wretched Hive of Scum and Villany 5, Talk to the fixer": {
+    "Wretched Hive of Scum and Villany|Talk to the fixer": {
         "region": "Missions",
         "requirements": {"Completed Needin the Green" : 1, "Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
@@ -701,7 +692,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 78
     },
-    "We Need to Cook 1, Talk to Uncle Nelson at a payphone": {
+    "We Need to Cook|Talk to Uncle Nelson at a payphone": {
         "region": "Missions",
         "requirements": {"Completed Wretched Hive of Scum and Villany" : 1},
         "requirements_type": "has_all_counts",
@@ -710,7 +701,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 79
     },
-    "We Need to Cook 2, Unlock the pseudo supplier in Westville": {
+    "We Need to Cook|Unlock the pseudo supplier in Westville (see contacts app for more info)": {
         "region": "Missions",
         "requirements": {"Completed Wretched Hive of Scum and Villany" : 1, "Unlocked Meg or Jerry" : 1},
         "requirements_type": "has_all_counts",
@@ -719,7 +710,7 @@
         "tags": ["Mission", "Permanent", "Customers Unlocked Required"],
         "modern_id": 80
     },
-    "We Need to Cook 3, Purchase a chemistry station from Oscar": {
+    "We Need to Cook|Purchase a chemistry station from Oscar": {
         "region": "Missions",
         "requirements": {"Completed We Need to Cook 2" : 1, "Chemistry Station Unlock" : 1, "Low-Quality Pseudo Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -728,7 +719,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 81
     },
-    "We Need to Cook 4, Purchase a lab oven from Oscar": {
+    "We Need to Cook|Purchase a lab oven from Oscar": {
         "region": "Missions",
         "requirements": {"Completed We Need to Cook 2" : 1, "Chemistry Station Unlock" : 1, "Lab Oven Unlock" : 1, "Low-Quality Pseudo Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -737,7 +728,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 82
     },
-    "We Need to Cook 5, Purchase acid from Oscar": {
+    "We Need to Cook|Purchase acid from Oscar": {
         "region": "Missions",
         "requirements": {"Completed We Need to Cook 2" : 1, "Chemistry Station Unlock" : 1, "Lab Oven Unlock" : 1, "Acid Unlock" : 1, "Low-Quality Pseudo Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -746,7 +737,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 83
     },
-    "We Need to Cook 6, Purchase phosphorus from Oscar": {
+    "We Need to Cook|Purchase phosphorus from Oscar": {
         "region": "Missions",
         "requirements": {"Completed We Need to Cook 2" : 1, "Chemistry Station Unlock" : 1, "Lab Oven Unlock" : 1, "Phosphorus Unlock" : 1, "Low-Quality Pseudo Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -755,7 +746,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 84
     },
-    "We Need to Cook 7, Message Shirley about buying some pseudo": {
+    "We Need to Cook|Message Shirley about buying some pseudo": {
         "region": "Missions",
         "requirements": {"Completed We Need to Cook 2" : 1, "Chemistry Station Unlock" : 1, "Lab Oven Unlock" : 1, "Phosphorus Unlock" : 1, "Acid Unlock" : 1, "Low-Quality Pseudo Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -764,7 +755,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 85
     },
-    "We Need to Cook 8, Cook liquid meth at the chemistry station": {
+    "We Need to Cook|Cook liquid meth at the chemistry station": {
         "region": "Missions",
         "requirements": {"Completed We Need to Cook 2" : 1, "Chemistry Station Unlock" : 1, "Lab Oven Unlock" : 1, "Phosphorus Unlock" : 1, "Acid Unlock" : 1, "Low-Quality Pseudo Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -773,7 +764,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 86
     },
-    "We Need to Cook 9, Bake the liquid meth with the lab oven": {
+    "We Need to Cook|Bake the liquid meth with the lab oven": {
         "region": "Missions",
         "requirements": {"Completed We Need to Cook 2" : 1, "Chemistry Station Unlock" : 1, "Lab Oven Unlock" : 1, "Phosphorus Unlock" : 1, "Acid Unlock" : 1, "Low-Quality Pseudo Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -782,7 +773,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 87
     },
-    "Money Management, Deposit cash at an ATM": {
+    "Money Management|Deposit cash at an ATM": {
         "region": "Missions",
         "requirements": {"Completed Getting Started" : 1},
         "requirements_type": "has_all_counts",
@@ -791,52 +782,52 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 88
     },
-    "Clean Cash 1, Talk to Uncle Nelson at a payphone": {
+    "Clean Cash|Talk to Uncle Nelson at a payphone": {
         "region": "Missions",
-        "requirements": {"Completed Money Management" : 1},
+        "requirements": {"Completed Money Management" : 1, "Own a Business" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
         "tags": ["Mission", "Permanent"],
         "modern_id": 89
     },
-    "Clean Cash 2, Purchase a business at Ray's Realty": {
+    "Clean Cash|Purchase a business at Ray's Realty": {
         "region": "Missions",
-        "requirements": {"Completed Money Management" : 1},
+        "requirements": {"Completed Money Management" : 1, "Own a Business" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
         "tags": ["Mission", "Permanent"],
         "modern_id": 90
     },
-    "Clean Cash 3, Go to your new business": {
+    "Clean Cash|Go to your new business": {
         "region": "Missions",
-        "requirements": {"Completed Money Management" : 1},
+        "requirements": {"Completed Money Management" : 1, "Own a Business" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
         "tags": ["Mission", "Permanent"],
         "modern_id": 91
     },
-    "Clean Cash 4, Use the laundering station": {
+    "Clean Cash|Use the laundering station to start a new laundering operation": {
         "region": "Missions",
-        "requirements": {"Completed Money Management" : 1},
+        "requirements": {"Completed Money Management" : 1, "Own a Business" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
         "tags": ["Mission", "Permanent"],
         "modern_id": 92
     },
-    "Clean Cash 5, Wait for the laundering operation to complete": {
+    "Clean Cash|Wait for the laundering operation to complete": {
         "region": "Missions",
-        "requirements": {"Completed Money Management" : 1},
+        "requirements": {"Completed Money Management" : 1, "Own a Business" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
         "tags": ["Mission", "Permanent"],
         "modern_id": 93
     },
-    "Vibin' on the 'Cybin 1, Purchase a grain bag": {
+    "Vibin' on the 'Cybin|Purchase a grain bag from Fungal Phil": {
         "region": "Missions",
         "requirements": {"Unlocked Elizabeth or Kevin" : 1},
         "requirements_type": "has_all_counts",
@@ -845,7 +836,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 94
     },
-    "Vibin' on the 'Cybin 2, Purchase a spore syringe": {
+    "Vibin' on the 'Cybin|Purchase a spore syringe from Fungal Phil": {
         "region": "Missions",
         "requirements": {"Unlocked Elizabeth or Kevin" : 1},
         "requirements_type": "has_all_counts",
@@ -854,79 +845,79 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 95
     },
-    "Vibin' on the 'Cybin 3, Purchase a mushroom spawn station": {
+    "Vibin' on the 'Cybin|Purchase a mushroom spawn station from Oscar": {
         "region": "Missions",
-        "requirements": {"Unlocked Elizabeth or Kevin" : 1},
+        "requirements": {"Unlocked Elizabeth or Kevin" : 1, "Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
         "tags": ["Mission", "Permanent"],
         "modern_id": 96
     },
-    "Vibin' on the 'Cybin 4, Use the mushroom spawn station to inocculate a grain bag": {
+    "Vibin' on the 'Cybin|Use the mushroom spawn station to inocculate a grain bag": {
         "region": "Missions",
-        "requirements": {"Unlocked Elizabeth or Kevin" : 1},
+        "requirements": {"Unlocked Elizabeth or Kevin" : 1, "Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
         "tags": ["Mission", "Permanent"],
         "modern_id": 97
     },
-    "Vibin' on the 'Cybin 5, Purchase a mushroom bed from Oscar": {
+    "Vibin' on the 'Cybin|Purchase a mushroom bed from Oscar": {
         "region": "Missions",
-        "requirements": {"Unlocked Elizabeth or Kevin" : 1},
+        "requirements": {"Unlocked Elizabeth or Kevin" : 1, "Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
         "tags": ["Mission", "Permanent"],
         "modern_id": 98
     },
-    "Vibin' on the 'Cybin 6, Purchase mushroom substrate from Fungal Phil": {
+    "Vibin' on the 'Cybin|Purchase mushroom substrate from Fungal Phil": {
         "region": "Missions",
-        "requirements": {"Unlocked Elizabeth or Kevin" : 1},
+        "requirements": {"Unlocked Elizabeth or Kevin" : 1, "Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
         "tags": ["Mission", "Permanent"],
         "modern_id": 99
     },
-    "Vibin' on the 'Cybin 7, Mix the shroom spawn into a mushroom bed": {
+    "Vibin' on the 'Cybin|Mix the shroom spawn into a mushroom bed": {
         "region": "Missions",
-        "requirements": {"Unlocked Elizabeth or Kevin" : 1},
+        "requirements": {"Unlocked Elizabeth or Kevin" : 1, "Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
         "tags": ["Mission", "Permanent"],
         "modern_id": 100
     },
-    "Vibin' on the 'Cybin 8, Purchase an AC unit from a hardware store": {
+    "Vibin' on the 'Cybin|Purchase an AC unit from a hardware store": {
         "region": "Missions",
-        "requirements": {"Unlocked Elizabeth or Kevin" : 1},
+        "requirements": {"Unlocked Elizabeth or Kevin" : 1, "Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
         "tags": ["Mission", "Permanent"],
         "modern_id": 101
     },
-    "Vibin' on the 'Cybin 9, Use the AC unit to cool the mushroom bed": {
+    "Vibin' on the 'Cybin|Use the AC unit to cool the mushroom bed": {
         "region": "Missions",
-        "requirements": {"Unlocked Elizabeth or Kevin" : 1},
+        "requirements": {"Unlocked Elizabeth or Kevin" : 1, "Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
         "tags": ["Mission", "Permanent"],
         "modern_id": 102
     },
-    "Vibin' on the 'Cybin 10, Harvest the shrooms once fully grown": {
+    "Vibin' on the 'Cybin|Harvest the shrooms once fully grown": {
         "region": "Missions",
-        "requirements": {"Unlocked Elizabeth or Kevin" : 1},
+        "requirements": {"Unlocked Elizabeth or Kevin" : 1, "Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
         "tags": ["Mission", "Permanent"],
         "modern_id": 103
     },
-    "Clearners 1, assign the cleaner to a locker": {
+    "Clearners|Use the management clipboard to assign the cleaner to a locker": {
         "region": "Missions",
         "requirements": {"Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
@@ -935,7 +926,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 104
     },
-    "Clearners 2, Assign a trash can to the cleaner": {
+    "Clearners|Assign a trash can to the cleaner": {
         "region": "Missions",
         "requirements": {"Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
@@ -944,7 +935,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 105
     },
-    "Clearners 3, Place cash in the locker of the cleaner": {
+    "Clearners|Place cash in the cleaner's locker": {
         "region": "Missions",
         "requirements": {"Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
@@ -953,7 +944,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 106
     },
-    "Botanists 1, assign the botanist to a locker": {
+    "Botanists|Use the management clipboard to assign the botanist to a locker": {
         "region": "Missions",
         "requirements": {"Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
@@ -962,7 +953,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 107
     },
-    "Botanists 2, Assign a supplies source to the botanist": {
+    "Botanists|Assign a supplies source to the botanist": {
         "region": "Missions",
         "requirements": {"Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
@@ -971,7 +962,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 108
     },
-    "Botanists 3, Assign a pot or grow tent to the botanist": {
+    "Botanists|Assign a pot or grow tent to the botanist": {
         "region": "Missions",
         "requirements": {"Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
@@ -980,7 +971,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 109
     },
-    "Botanists 4, Set the pot/grow tent destination": {
+    "Botanists|Set the pot/grow tent destination": {
         "region": "Missions",
         "requirements": {"Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
@@ -989,7 +980,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 110
     },
-    "Botanists 5, Place cash in the locker of the botanist": {
+    "Botanists|Place cash in the botanist's locker": {
         "region": "Missions",
         "requirements": {"Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
@@ -998,7 +989,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 111
     },
-    "Handlers 1, assign the packager to a locker": {
+    "Handlers|Use the management clipboard to assign the handler to a locker": {
         "region": "Missions",
         "requirements": {"Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
@@ -1007,7 +998,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 112
     },
-    "Handlers 2, Assign a packaging station to the packager": {
+    "Handlers|Assign a packaging station to the handler": {
         "region": "Missions",
         "requirements": {"Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
@@ -1016,7 +1007,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 113
     },
-    "Handlers 3, Place cash in the locker of the packager": {
+    "Handlers|Place cash in the handler's locker": {
         "region": "Missions",
         "requirements": {"Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
@@ -1025,7 +1016,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 114
     },
-    "Chemists 1, assign the chemist to a locker": {
+    "Chemists|Use the management clipboard to assign the chemist to a locker": {
         "region": "Missions",
         "requirements": {"Warehouse Access" : 1},
         "requirements_type": "has_all_counts",
@@ -1034,7 +1025,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 115
     },
-    "Chemists 2, Assign a station to the chemist": {
+    "Chemists|Assign a station to the chemist": {
         "region": "Missions",
         "requirements": {"Warehouse Access" : 1, "Mixing Station Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -1043,7 +1034,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 116
     },
-    "Chemists 3, Place cash in the locker of the chemist": {
+    "Chemists|Place cash in the chemist's locker": {
         "region": "Missions",
         "requirements": {"Warehouse Access" : 1, "Mixing Station Unlock" : 1},
         "requirements_type": "has_all_counts",
@@ -1052,7 +1043,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 117
     },
-    "Unfavorable Agreements 1, Read the message from the unknown contact": {
+    "Unfavorable Agreements|Read the message from the unknown contact": {
         "region": "Missions",
         "requirements": {"Completed We Need to Cook" : 1, "Unlocked 5 Westville Customers" : 1},
         "requirements_type": "has_all_counts",
@@ -1061,7 +1052,7 @@
         "tags": ["Mission", "Permanent", "Customers Unlocked Required"],
         "modern_id": 118
     },
-    "Unfavorable Agreements 2, Meet the stranger at the parking lot next to Taco Ticklers": {
+    "Unfavorable Agreements|Meet the stranger at the parking lot next to Taco Ticklers": {
         "region": "Missions",
         "requirements": {"Unlocked 5 Westville Customers" : 1},
         "requirements_type": "has_all_counts",
@@ -1070,7 +1061,7 @@
         "tags": ["Mission", "Permanent", "Customers Unlocked Required"],
         "modern_id": 119
     },
-    "Finishing the job 1, Talk to Uncle Nelson at a payphone": {
+    "Finishing the job|Talk to Uncle Nelson at a payphone": {
         "region": "Missions",
         "requirements": {"Completed Unfavorable Agreements" : 1, "Uptown Customers Unlocked" : 1},
         "requirements_type": "has_all_counts",
@@ -1079,7 +1070,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 120
     },
-    "Finishing the job 2, Talk to Billy about buying explosives": {
+    "Finishing the job|Talk to Billy at the chemical plant about buying explosives": {
         "region": "Missions",
         "requirements": {"Completed Unfavorable Agreements" : 1, "Uptown Customers Unlocked" : 1},
         "requirements_type": "has_all_counts",
@@ -1088,7 +1079,7 @@
         "tags": ["Mission", "Permanent"],
         "modern_id": 121
     },
-    "Finishing the job 3, Trade Billy 20x cocaine in return for RDX": {
+    "Finishing the job|Trade Billy 20x cocaine in return for RDX": {
         "region": "Missions",
         "requirements": {"Completed Unfavorable Agreements" : 1, "Uptown Customers Unlocked" : 1, "Coca Seed Unlock" : 1,
                                 "Cauldron Unlock" : 1,
@@ -1100,7 +1091,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 122
     },
-    "Finishing the job 4, Get Sam to dig access to the tunnel under Hyland Manor": {
+    "Finishing the job|Get Sam to dig access to the tunnel under Hyland Manor": {
         "region": "Missions",
         "requirements": {"Completed Unfavorable Agreements" : 1, "Uptown Customers Unlocked" : 1, "Coca Seed Unlock" : 1,
                                 "Cauldron Unlock" : 1,
@@ -1112,7 +1103,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 123
     },
-    "Finishing the job 5, Wait for Sam to dig access to the tunnel": {
+    "Finishing the job|Wait for Sam to dig access to the tunnel": {
         "region": "Missions",
         "requirements": {"Completed Unfavorable Agreements" : 1, "Uptown Customers Unlocked" : 1, "Coca Seed Unlock" : 1,
                                 "Cauldron Unlock" : 1,
@@ -1124,7 +1115,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 124
     },
-    "Finishing the job 6, Talk to Stan about turning the RDX into a bomb": {
+    "Finishing the job|Talk to Stan about turning the RDX into a bomb": {
         "region": "Missions",
         "requirements": {"Completed Unfavorable Agreements" : 1, "Uptown Customers Unlocked" : 1, "Coca Seed Unlock" : 1,
                                 "Cauldron Unlock" : 1,
@@ -1136,7 +1127,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 125
     },
-    "Finishing the job 7, Kill Stan's theif in docks at night": {
+    "Finishing the job|Kill the thief who keeps stealing Stan's supplies. He is often seen at the docks at night.": {
         "region": "Missions",
         "requirements": {"Completed Unfavorable Agreements" : 1, "Uptown Customers Unlocked" : 1, "Coca Seed Unlock" : 1,
                                 "Cauldron Unlock" : 1,
@@ -1148,7 +1139,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 126
     },
-    "Finishing the job 8, Get Stan to turn the RDX into a bomb": {
+    "Finishing the job|Get Stan to turn the RDX into a bomb": {
         "region": "Missions",
         "requirements": {"Completed Unfavorable Agreements" : 1, "Uptown Customers Unlocked" : 1, "Coca Seed Unlock" : 1,
                                 "Cauldron Unlock" : 1,
@@ -1160,7 +1151,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 127
     },
-    "Finishing the job 9, Plant the bomb under Hyland Manor": {
+    "Finishing the job|Plant the bomb under Hyland Manor": {
         "region": "Missions",
         "requirements": {"Completed Unfavorable Agreements" : 1, "Uptown Customers Unlocked" : 1, "Coca Seed Unlock" : 1,
                                 "Cauldron Unlock" : 1,
@@ -1172,7 +1163,7 @@
         "tags": ["Mission", "Permanent", "Level Up Reward Required"],
         "modern_id": 128
     },
-    "Finishing the job 10, Wait for the bomb to detonate": {
+    "Finishing the job| Wait for the bomb to detonate": {
         "region": "Missions",
         "requirements": {"Completed Unfavorable Agreements" : 1, "Uptown Customers Unlocked" : 1, "Coca Seed Unlock" : 1,
                                 "Cauldron Unlock" : 1,

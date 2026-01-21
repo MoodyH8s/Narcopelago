@@ -59,10 +59,10 @@
         "requirements_alt_type": "",
         "tags": ["Networth", "Goal"]
     },
-    "Complete Welcome To Hyland Point": {
+    "Welcome to Hyland Point": {
         "region": "Missions",
-        "itemName" : "Completed Welcome To Hyland Point",
-        "locationName": "Complete Welcome To Hyland Point",
+        "itemName" : "Welcome to Hyland Point",
+        "locationName": "Welcome to Hyland Point",
         "requirements": {},
         "requirements_type": "",
         "requirements_alt": {},
@@ -73,7 +73,7 @@
         "region": "Missions",
         "itemName" : "Completed Getting Started",
         "locationName": "Complete Getting Started",
-        "requirements": {"Completed Welcome To Hyland Point" : 1},
+        "requirements": {"Welcome to Hyland Point" : 1},
         "requirements_type": "has_all_counts",
         "requirements_alt": {},
         "requirements_alt_type": "",
