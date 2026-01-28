@@ -601,7 +601,7 @@
     },
     "Benji Coleman Recruited": {
         "classification": ["PROGRESSION", "USEFUL"],
-        "tags": ["Northtown", "Dealer"],
+        "tags": ["Northtown", "Dealer", "Default"],
         "modern_id": 216
     },
     "Albert Hoover Unlocked": {

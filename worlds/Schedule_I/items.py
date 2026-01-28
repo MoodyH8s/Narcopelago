@@ -104,7 +104,7 @@ def create_all_items(world: Schedule1World, data) -> None:
 
     if world.options.randomize_dealers:
         itempool += [world.create_item(item.name) for item in data.items.values() 
-                     if "Dealer" in item.tags]
+                     if "Dealer" in item.tags and "Default" not in item.tags]
 
     if world.options.randomize_customers:
         itempool += [world.create_item(item.name) for item in data.items.values() 
@@ -148,3 +148,6 @@ def create_all_items(world: Schedule1World, data) -> None:
     if world.options.randomize_suppliers:
         starting_albert_hoover = world.create_item("Albert Hoover Unlocked")
         world.push_precollected(starting_albert_hoover)
+    if world.options.randomize_dealers:
+        starting_benji_coleman = world.create_item("Benji Coleman Recruited")
+        world.push_precollected(starting_benji_coleman)
