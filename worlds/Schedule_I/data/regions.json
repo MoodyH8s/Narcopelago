@@ -18,7 +18,7 @@
             "Cocaine Recipe Checks": {"randomize_level_unlocks" : {"has_any": [["Mixing Station Mk II Unlock",  "Mixing Station Unlock"]],
                                                                   "has_all" : ["Cauldron Unlock", "Lab Oven Unlock", "Gasoline Unlock"]},
                                     "randomize_suppliers" : {"has": "Salvador Moreno Unlocked"},
-                                    "randomize_customers" : {"has_any" : [["Mac Cooper Unlocked", "Javier Perez Unlocked"]]}},
+                                    "randomize_customers" : {"has_any" : [["Mac Cooper Unlocked", "Javier Pérez Unlocked"]]}},
             "Northtown" : true
         }
     },
@@ -239,9 +239,9 @@
             "Billy Kramer Unlocked": 10,
             "Cranky Frank Unlocked": 10,
             "Genghis Barn Unlocked": 10,
-            "Javier Perez Unlocked": 10,
+            "Javier Pérez Unlocked": 10,
             "Kelly Reynolds Unlocked": 10,
-            "Lisa Gardner Unlocked": 10,
+            "Lisa Gardener Unlocked": 10,
             "Mac Cooper Unlocked": 10,
             "Marco Barone Unlocked": 10,
             "Melissa Wood Unlocked": 10,

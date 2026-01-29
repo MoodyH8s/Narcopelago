@@ -335,9 +335,9 @@
             "Billy Kramer Unlocked": 10,
             "Cranky Frank Unlocked": 10,
             "Genghis Barn Unlocked": 10,
-            "Javier Perez Unlocked": 10,
+            "Javier Pérez Unlocked": 10,
             "Kelly Reynolds Unlocked": 10,
-            "Lisa Gardner Unlocked": 10,
+            "Lisa Gardener Unlocked": 10,
             "Mac Cooper Unlocked": 10,
             "Marco Barone Unlocked": 10,
             "Melissa Wood Unlocked": 10,
@@ -848,7 +848,7 @@
     "Finishing the Job|Trade Billy 20x cocaine in return for RDX": {
         "region": "Finishing the Job",
         "requirements": {"randomize_cartel_influence" : {"has_all_counts": {"Cartel Influence, Suburbia" : 7}},
-                        "randomize_customers": {"has_any": [["Mac Cooper Unlocked", "Javier Perez Unlocked"]],
+                        "randomize_customers": {"has_any": [["Mac Cooper Unlocked", "Javier Pérez Unlocked"]],
                                                 "has_all": ["Billy Kramer Unlocked", "Sam Thompson Unlocked"]},
                         "randomize_level_unlocks": {"has_all" : ["Cauldron Unlock", "Gasoline Unlock"]},
                         "randomize_suppliers": {"has":"Salvador Moreno Unlocked"}},
@@ -858,7 +858,7 @@
     "Finishing the Job|Get Sam to dig access to the tunnel under Hyland Manor": {
         "region": "Finishing the Job",
         "requirements": {"randomize_cartel_influence" : {"has_all_counts": {"Cartel Influence, Suburbia" : 7}},
-                        "randomize_customers": {"has_any": [["Mac Cooper Unlocked", "Javier Perez Unlocked"]],
+                        "randomize_customers": {"has_any": [["Mac Cooper Unlocked", "Javier Pérez Unlocked"]],
                                                 "has_all": ["Billy Kramer Unlocked", "Sam Thompson Unlocked"]},
                         "randomize_level_unlocks": {"has_all" : ["Cauldron Unlock", "Gasoline Unlock"]},
                         "randomize_suppliers": {"has":"Salvador Moreno Unlocked"}},
@@ -868,7 +868,7 @@
     "Finishing the Job|Wait for Sam to dig access to the tunnel": {
         "region": "Finishing the Job",
         "requirements": {"randomize_cartel_influence" : {"has_all_counts": {"Cartel Influence, Suburbia" : 7}},
-                        "randomize_customers": {"has_any": [["Mac Cooper Unlocked", "Javier Perez Unlocked"]],
+                        "randomize_customers": {"has_any": [["Mac Cooper Unlocked", "Javier Pérez Unlocked"]],
                                                 "has_all": ["Billy Kramer Unlocked", "Sam Thompson Unlocked"]},
                         "randomize_level_unlocks": {"has_all" : ["Cauldron Unlock", "Gasoline Unlock"]},
                         "randomize_suppliers": {"has":"Salvador Moreno Unlocked"}},
@@ -878,7 +878,7 @@
     "Finishing the Job|Talk to Stan about turning the RDX into a bomb": {
         "region": "Finishing the Job",
         "requirements": {"randomize_cartel_influence" : {"has_all_counts": {"Cartel Influence, Suburbia" : 7}},
-                        "randomize_customers": {"has_any": [["Mac Cooper Unlocked", "Javier Perez Unlocked"]],
+                        "randomize_customers": {"has_any": [["Mac Cooper Unlocked", "Javier Pérez Unlocked"]],
                                                 "has_all": ["Billy Kramer Unlocked", "Sam Thompson Unlocked"]},
                         "randomize_level_unlocks": {"has_all" : ["Cauldron Unlock", "Gasoline Unlock"]},
                         "randomize_suppliers": {"has":"Salvador Moreno Unlocked"}},
@@ -888,7 +888,7 @@
     "Finishing the Job|Kill the thief who keeps stealing Stan's supplies. He is often seen at the docks at night.": {
         "region": "Finishing the Job",
         "requirements": {"randomize_cartel_influence" : {"has_all_counts": {"Cartel Influence, Suburbia" : 7}},
-                        "randomize_customers": {"has_any": [["Mac Cooper Unlocked", "Javier Perez Unlocked"]],
+                        "randomize_customers": {"has_any": [["Mac Cooper Unlocked", "Javier Pérez Unlocked"]],
                                                 "has_all": ["Billy Kramer Unlocked", "Sam Thompson Unlocked"]},
                         "randomize_level_unlocks": {"has_all" : ["Cauldron Unlock", "Gasoline Unlock"]},
                         "randomize_suppliers": {"has":"Salvador Moreno Unlocked"}},
@@ -898,7 +898,7 @@
     "Finishing the Job|Get Stan to turn the RDX into a bomb": {
         "region": "Finishing the Job",
         "requirements": {"randomize_cartel_influence" : {"has_all_counts": {"Cartel Influence, Suburbia" : 7}},
-                        "randomize_customers": {"has_any": [["Mac Cooper Unlocked", "Javier Perez Unlocked"]],
+                        "randomize_customers": {"has_any": [["Mac Cooper Unlocked", "Javier Pérez Unlocked"]],
                                                 "has_all": ["Billy Kramer Unlocked", "Sam Thompson Unlocked"]},
                         "randomize_level_unlocks": {"has_all" : ["Cauldron Unlock", "Gasoline Unlock"]},
                         "randomize_suppliers": {"has":"Salvador Moreno Unlocked"}},
@@ -908,7 +908,7 @@
     "Finishing the Job|Plant the bomb under Hyland Manor": {
         "region": "Finishing the Job",
         "requirements": {"randomize_cartel_influence" : {"has_all_counts": {"Cartel Influence, Suburbia" : 7}},
-                        "randomize_customers": {"has_any": [["Mac Cooper Unlocked", "Javier Perez Unlocked"]],
+                        "randomize_customers": {"has_any": [["Mac Cooper Unlocked", "Javier Pérez Unlocked"]],
                                                 "has_all": ["Billy Kramer Unlocked", "Sam Thompson Unlocked"]},
                         "randomize_level_unlocks": {"has_all" : ["Cauldron Unlock", "Gasoline Unlock"]},
                         "randomize_suppliers": {"has":"Salvador Moreno Unlocked"}},
@@ -918,7 +918,7 @@
     "Finishing the Job| Wait for the bomb to detonate": {
         "region": "Finishing the Job",
         "requirements": {"randomize_cartel_influence" : {"has_all_counts": {"Cartel Influence, Suburbia" : 7}},
-                        "randomize_customers": {"has_any": [["Mac Cooper Unlocked", "Javier Perez Unlocked"]],
+                        "randomize_customers": {"has_any": [["Mac Cooper Unlocked", "Javier Pérez Unlocked"]],
                                                 "has_all": ["Billy Kramer Unlocked", "Sam Thompson Unlocked"]},
                         "randomize_level_unlocks": {"has_all" : ["Cauldron Unlock", "Gasoline Unlock"]},
                         "randomize_suppliers": {"has":"Salvador Moreno Unlocked"}},
@@ -1549,20 +1549,20 @@
     },
     "Successful Sample: Genghis Barn": {
         "region": "Docks",
-        "requirements": {"randomize_customers" : {"has_any" : [["Genghis Barn Unlocked", "Cranky Frank Unlocked", "Javier Perez Unlocked"]]}},
+        "requirements": {"randomize_customers" : {"has_any" : [["Genghis Barn Unlocked", "Cranky Frank Unlocked", "Javier Pérez Unlocked"]]}},
         "tags": ["Customer"],
         "modern_id": 343
     },
-    "Successful Sample: Javier Perez": {
+    "Successful Sample: Javier Pérez": {
         "region": "Docks",
-        "requirements": {"randomize_customers" : {"has_any" : [["Javier Perez Unlocked", "Genghis Barn Unlocked", "Marco Barone Unlocked", "Lisa Gardener Unlocked"]]},
+        "requirements": {"randomize_customers" : {"has_any" : [["Javier Pérez Unlocked", "Genghis Barn Unlocked", "Marco Barone Unlocked", "Lisa Gardener Unlocked"]]},
                          "randomize_suppliers" : {"has" : "Salvador Moreno Unlocked"}},
         "tags": ["Customer"],
         "modern_id": 344
     },
     "Befriend Supplier: Salvador Moreno": {
         "region": "Docks",
-        "requirements": {"randomize_customers" : {"has_any" : [["Javier Perez Unlocked", "Kelly Reynolds Unlocked", "Mac Cooper Unlocked"]]},
+        "requirements": {"randomize_customers" : {"has_any" : [["Javier Pérez Unlocked", "Kelly Reynolds Unlocked", "Mac Cooper Unlocked"]]},
                          "randomize_suppliers" : {"has" : "Salvador Moreno Unlocked"}},
         "tags": ["Supplier"],
         "modern_id": 402
@@ -1573,9 +1573,9 @@
         "tags": ["Customer"],
         "modern_id": 345
     },
-    "Successful Sample: Lisa Gardner": {
+    "Successful Sample: Lisa Gardener": {
         "region": "Docks",
-        "requirements": {"randomize_customers" : {"has_any" : [["Lisa Gardener Unlocked", "Anna Chesterfield Unlocked", "Javier Perez Unlocked", "Kelly Reynolds Unlocked"]]}},
+        "requirements": {"randomize_customers" : {"has_any" : [["Lisa Gardener Unlocked", "Anna Chesterfield Unlocked", "Javier Pérez Unlocked", "Kelly Reynolds Unlocked"]]}},
         "tags": ["Customer"],
         "modern_id": 346
     },
@@ -1588,7 +1588,7 @@
     },
     "Successful Sample: Marco Barone": {
         "region": "Docks",
-        "requirements": {"randomize_customers" : {"has_any" : [["Marco Barone Unlocked", "Cranky Frank Unlocked", "Javier Perez Unlocked", "Mac Cooper Unlocked", "Sherman Giles Unlocked"]]}},
+        "requirements": {"randomize_customers" : {"has_any" : [["Marco Barone Unlocked", "Cranky Frank Unlocked", "Javier Pérez Unlocked", "Mac Cooper Unlocked", "Sherman Giles Unlocked"]]}},
         "tags": ["Customer"],
         "modern_id": 348
     },
